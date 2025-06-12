@@ -1,31 +1,35 @@
-📊 A/B Testing: Marketing Campaign Effectiveness Analysis
-This notebook presents a comprehensive A/B testing analysis to evaluate the effectiveness of a marketing campaign. The goal is to determine whether sending a promotional email to a specific group of customers leads to a statistically significant increase in conversion rates compared to a control group that did not receive the email.
+📊 A/B Testing: Facebook vs AdWords Campaign Effectiveness
+This notebook presents a data-driven A/B testing analysis aimed at determining which advertising platform—Facebook or Google AdWords—delivers better marketing performance. By comparing metrics such as clicks, conversions, and cost-effectiveness, the study provides insights to optimize future campaign strategies.
 
-✅ Key Features
-Business Objective: Assess if the email campaign improves conversion rates and justify marketing strategies based on data.
+🎯 Project Objective
+To evaluate and compare the effectiveness of Facebook and AdWords campaigns by analyzing their performance on:
 
-Data Exploration: Overview of dataset structure, cleaning, and preprocessing.
+Number of ad clicks
 
-Group Distribution: Visual and statistical checks for balanced treatment and control groups.
+Conversion rates
 
-Statistical Testing:
+Campaign costs
 
-Hypothesis formulation
+🔍 Key Components
+Data Preprocessing: Handled missing values and ensured proper data types.
 
-Proportion Z-test for conversion rates
+Exploratory Data Analysis (EDA): Distribution plots, conversion category analysis, and time-series comparisons.
 
-Confidence interval analysis
+Hypothesis Testing:
 
-Conclusion: Business insights and recommendations based on test results.
+Performed independent samples t-tests to assess statistically significant differences in conversions and clicks between platforms.
 
-📦 Technologies Used
-Python
+Cost Analysis: Measured cost per conversion and ROI for each platform.
 
-Pandas & NumPy
+🧰 Tools & Libraries
+Python (Pandas, NumPy)
 
-Matplotlib & Seaborn (for visualization)
+Visualization: Matplotlib, Seaborn
 
-Scipy & Statsmodels (for statistical testing)
+Statistics: Scipy (t-test)
 
 📁 Dataset
-A simulated marketing dataset containing customer identifiers, group assignment (control vs treatment), and conversion outcomes.
+A structured marketing campaign dataset containing daily records of clicks, conversions, and costs across both Facebook and AdWords platforms.
+
+📌 Conclusion
+Based on statistical testing and cost evaluation, the analysis identifies which platform yields higher marketing value, helping stakeholders make informed decisions on budget allocation.
